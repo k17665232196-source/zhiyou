@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>栀柚</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- 改成下面這兩行絕對路徑 -->
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/app.js" defer></script>
 </head>
 <body>
     <div class="chat-container">
@@ -12,7 +14,7 @@
         <div class="header">
             <div class="back-btn">←</div>
             <div class="avatar">
-                <img src="public/avatar.jpg" alt="栀柚">
+                <img src="/public/avatar.jpg" alt="栀柚">
             </div>
             <div class="info">
                 <h2>栀柚</h2>
@@ -21,10 +23,8 @@
             <div class="more">⋯</div>
         </div>
 
-        <!-- 消息区域 -->
-        <div id="messages" class="messages">
-            <!-- 动态插入消息 -->
-        </div>
+        <!-- 消息區域 -->
+        <div id="messages" class="messages"></div>
 
         <!-- 输入栏 -->
         <div class="input-area">
@@ -34,7 +34,5 @@
             <button id="send-btn">发送</button>
         </div>
     </div>
-
-    <script src="js/app.js"></script>
 </body>
 </html>
