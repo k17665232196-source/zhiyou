@@ -13,7 +13,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: url('public/background.jpg') center/cover no-repeat; /* 放森林/自然图 */
+    background: url('public/background.jpg.PNG') center/cover no-repeat; /* 放森林/自然图 */
     box-shadow: 0 0 30px rgba(0,0,0,0.15);
     position: relative;
 }
